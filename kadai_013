@@ -1,0 +1,11 @@
+def cal(price, tax):
+    print(price*(1+tax/100))
+
+cal(100, 10)
+
+==============================
+
+def cal(price, tax=10):
+    return price*(1+tax/100)
+
+cal(100)
