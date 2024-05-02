@@ -1,0 +1,11 @@
+class Human:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def printinfo(self):
+        print(self.name, self.age)
+
+person = Human('AAA', 35)
+
+person.printinfo()
